@@ -125,7 +125,7 @@ public class DriveSubsystem {
     public double leftDistanceTravelledInMeters() {
         double left_dist = getLeftBackEncoderPosition() * METERS_PER_TICKS;
         return left_dist;
-    }
+    } 
 
     public void stop() {
         drive(0, 0);
